@@ -5,3 +5,9 @@ content:'Updates not available ';
 /*#v2u1-16824{background:#f33; color:#fff;}*/
 .ytudhead{display:none;}
 .ytudp{display:none;}
+.ytudheadh::after{
+  content:'Updated on 12th August 2024';
+}
+.ytudpp::after{
+  content:'Some software changes has been made';
+}
