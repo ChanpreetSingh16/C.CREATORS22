@@ -2,9 +2,9 @@
 #udv2u1-16824::after{
 content:'Updates not available';
 }
-/*#v2u1-16824{background:#f33; color:#fff;}*/
+#v2u1-16824{background:#f33; color:#fff;}
 
-/*.ytudheadh::after{
+.ytudheadh::after{
   content:'Updated on 12th August 2024';
 }
 .ytudpp::after{
@@ -12,7 +12,7 @@ content:'Updates not available';
 }
 
 #webname .ytudot{display:block;}
-*/
+
 /*wl*/
 .wlrate::after{
 	content:' 5 ';
