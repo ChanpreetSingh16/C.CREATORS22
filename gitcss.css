@@ -13,3 +13,87 @@ content:'Updates not available';
 
 #webname .ytudot{display:block;}
 */
+/*wl*/
+.wlrate::after{
+	content:' 5 ';
+	float:left;
+	font-size:18px;
+}
+.wlversion::after{
+	content:' V2 - WL';
+	float:left;
+	font-size:18px;
+}
+.wlsize::after{
+	content:' 5.20MB';
+	float:left;
+	font-size:18px;
+}
+
+/*ofp*/
+.ofprate::after{
+	content:' 5 ';
+	float:left;
+	font-size:18px;
+}
+.ofpversion::after{
+	content:' V2-OFP-30-07-2024';
+	float:left;
+	font-size:18px;
+}
+.ofpsize::after{
+	content:' 6.29MB';
+	float:left;
+	font-size:18px;
+}
+
+/*oc*/
+.ocrate::after{
+	content:' 4 ';
+	float:left;
+	font-size:18px;
+}
+.ocversion::after{
+	content:' V6 01.06.2024';
+	float:left;
+	font-size:18px;
+}
+.ocsize::after{
+	content:' 6.69MB';
+	float:left;
+	font-size:18px;
+}
+
+/*asc*/
+.ascrate::after{
+	content:' 5 ';
+	float:left;
+	font-size:18px;
+}
+.ascversion::after{
+	content:' V2 15-12-2023';
+	float:left;
+	font-size:18px;
+}
+.ascsize::after{
+	content:' 872KB';
+	float:left;
+	font-size:18px;
+}
+
+/*yt*/
+.ytrate::after{
+	content:' 5 ';
+	float:left;
+	font-size:18px;
+}
+.ytversion::after{
+	content:' V2 15-6-2023';
+	float:left;
+	font-size:18px;
+}
+.ytsize::after{
+	content:' 256KB';
+	float:left;
+	font-size:18px;
+}
