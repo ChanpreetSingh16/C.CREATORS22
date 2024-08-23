@@ -10,6 +10,7 @@ content:'Updates not available';
 .ytudpp::after{
   content:'Some software changes has been made';
 }
+#ytupd{background:#f11;}
 
 #webname .ytudot{display:block;}
 
