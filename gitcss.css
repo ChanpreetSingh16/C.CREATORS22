@@ -5,12 +5,12 @@ content:'Updates not available';
 /*#v2u1-16824{background:#f33; color:#fff;}*/
 
 .wludheadh::after{
-  content:'Updated on 12th August 2024';
+  content:'Updated on 23rd August 2024';
 }
 .wludpp::after{
-  content:'Some software changes has been made';
+  content:'Some software updates and new features has been added';
 }
-#wlupd{background:#f11;}
+#wlupd{background:#911;}
 
 #webname .wludot{display:block;}
 
@@ -26,7 +26,7 @@ content:'Updates not available';
 	font-size:18px;
 }
 .wlsize::after{
-	content:' 5.20MB';
+	content:' 4.56MB';
 	float:left;
 	font-size:18px;
 }
