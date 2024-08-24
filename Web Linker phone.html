@@ -557,7 +557,7 @@ function copylyt() {
 </div>
 </div>
 
-<div id="downwl" style="display:block;">
+<div id="downwl">
 Download Web Linker for free for better experience and services!
 <br>
 <a><button class="wlcloserequestbt" onclick="closedownwl()"><i class="material-symbols-outlined">close</i></button></a><br>
@@ -565,6 +565,11 @@ Download Web Linker for free for better experience and services!
 <script>
 function closedownwl() {
 	document.getElementById("downwl").style.display = "none";
+}
+const myTimeout = setTimeout(myGreeting, 3000);
+
+function myGreeting() {
+  document.getElementById("downwl").style.display = "block";
 }
 </script>
 </div>
