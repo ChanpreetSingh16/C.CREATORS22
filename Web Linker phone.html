@@ -571,6 +571,7 @@ const myTimeout = setTimeout(myGreeting, 3000);
 function myGreeting() {
   document.getElementById("downwl").style.display = "block";
 }
+  setInterval(function() {document.getElementById("downwl").style.display = "block";}, 90000)
 </script>
 </div>
 <script>
@@ -689,7 +690,7 @@ body{
 .feed{
 	--ifeed: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 48;
 	--feedbt:var(--c14);
-	--btfeedho:var(--c14);
+	--btfeedho1:var(--c14);
 	--cfeed:var(--c16);
 	--feedis:block;
 	
@@ -697,7 +698,7 @@ body{
 .gid{
 	--igid: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 48;
 	--gidbt:var(--c14);
-	--btgidh1:var(--c14);
+	--btgidho1:var(--c14);
 	--cgid:var(--c16);
 	--giddis:block;
 	
@@ -705,7 +706,7 @@ body{
 .abt{
 	--iabt: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 48;
 	--abtbt:var(--c14);
-	--btabtho:var(--c14);
+	--btabtho1:var(--c14);
 	--cabt:var(--c16);
 	--abtdis:block;
 	
@@ -713,7 +714,7 @@ body{
 .theme{
 	--itheme: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 48;
 	--themebt:var(--c14);
-	--bttheh1:var(--c14);
+	--bttheho1:var(--c14);
 	--cthe:var(--c16);
 }
 .navbar{
