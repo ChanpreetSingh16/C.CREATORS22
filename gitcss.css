@@ -1,10 +1,10 @@
 
 #udv2u1-16824::after{
-content:'Updates not available';
+content:'No Updates';
 }
 /*#v2u1-16824{background:#f33; color:#fff;}*/
 
-.wludheadh::after{
+/*.wludheadh::after{
   content:'Updated on 23rd August 2024';
 }
 .wludpp::after{
@@ -13,7 +13,7 @@ content:'Updates not available';
 #wlupd{background:#c11;}
 
 #webname .wludot{display:block;}
-
+*/
 /*wl*/
 .wlrate::after{
 	content:' 5 ';
