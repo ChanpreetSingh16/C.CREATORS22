@@ -1,7 +1,11 @@
-
+/*cc*/
+#Update #hrref #txtback::after{
+	content:'hello';
+}
 #udv2u1-16824::after{
 content:'No Updates';
 }
+
 /*#v2u1-16824{background:#f33; color:#fff;}*/
 
 /*.wludheadh::after{
