@@ -102,3 +102,21 @@ content:'No Updates';
 	float:left;
 	font-size:18px;
 }
+
+
+/*cc*/
+.ccrate::after{
+	content:' 4 ';
+	float:left;
+	font-size:18px;
+}
+.ccversion::after{
+	content:' V3.5-05-16-2024';
+	float:left;
+	font-size:18px;
+}
+.ccsize::after{
+	content:' 3.22MB';
+	float:left;
+	font-size:18px;
+}
