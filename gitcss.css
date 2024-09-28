@@ -8,13 +8,15 @@
 #udv2u1-16824::after{
 content:'No Updates';
 }
+
 .ccudheadh::after{
   content:'Updated on 28th September 2024';
 }
 .ccudpp::after{
   content:'UI updated.';
 }
-#ccupd{display:block;}
+#ccv .ccudhead #udappdot{display:block;}
+#ccupd{background:#c11;}
 /*#v2u1-16824{background:#f33; color:#fff;}*/
 
 /*.wludheadh::after{
