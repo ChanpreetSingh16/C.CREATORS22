@@ -2,6 +2,9 @@
 #Update #hrref #txtback::after{
 	content:'UI update is available. You can download it through Web Linker. Updated on 28.09.2024';
 }
+#Update #hrref2 #txtback::after{
+	content:'This is the Latest Version.';
+}
 #udv2u1-16824::after{
 content:'No Updates';
 }
