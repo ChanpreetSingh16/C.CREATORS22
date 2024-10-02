@@ -1,4 +1,4 @@
-/*cc*/
+/*cc
 #Update #hrref #txtback::after{
 	content:'UI update is available. You can download it through Web Linker. Updated on 28.09.2024';
 }
@@ -16,7 +16,9 @@ content:'No Updates';
   content:'UI updated.';
 }
 #ccv .ccudhead #udappdot{display:block;}
-#ccupd{background:#c11;}
+#ccupd{background:#c11;}*/
+
+
 /*#v2u1-16824{background:#f33; color:#fff;}*/
 
 /*.wludheadh::after{
