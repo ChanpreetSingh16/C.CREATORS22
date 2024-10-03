@@ -133,3 +133,21 @@ content:'No Updates';
 	float:left;
 	font-size:18px;
 }
+
+
+/*ont*/
+.ontrate::after{
+	content:' 4 ';
+	float:left;
+	font-size:18px;
+}
+.ontversion::after{
+	content:' V1 08.06.2024';
+	float:left;
+	font-size:18px;
+}
+.ontsize::after{
+	content:' 31.7';
+	float:left;
+	font-size:18px;
+}
