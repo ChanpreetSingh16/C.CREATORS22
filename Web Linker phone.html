@@ -15,6 +15,22 @@
 <meta charset="utf-8">
 </head>
 <body link="#09f" alink="#fff" vlink="#fff">
+<button style="display: none;" id="fullbt" onclick="fullscreen()"></button>
+<script>
+document.getElementById("fullbt").click();
+
+var elem = document.documentElement;
+function fullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+
 
 <div class="navbar">
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkXydFoPeJ1El3NG8uqZUk35PcSoKkbg8QZhAwVmZMDYnw1TYhcyjZrxLJnuooShVLkCfjfrI-DcuhXLqkzXJcbGhgZTCTEhPv6AzkTxBLpTdi3c7ocubb-FTjM2_NJhkmsJHbC-TrrGE_SwaXh7H-wYGPQO2VsZ1vG1Ub0Xo65M9Tr_JR63gKgl4S09Y/s1600/16.png"><font id="brand">Web Linker</font>
