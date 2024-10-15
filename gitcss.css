@@ -21,15 +21,37 @@ content:'No Updates';
 
 /*#v2u1-16824{background:#f33; color:#fff;}*/
 
-/*.ontudheadh::after{
-  content:'Updated on 12th October 2024';
+.ontudheadh::after{
+  content:'Updated on 15th October 2024';
 }
 .ontudpp::after{
-  content:'Some software updates and new features has been added';
+  content:'Some UI updates and bug fixes has been done';
 }
 #ontupd{background:#c11;}
 
-#webname .ontudot{display:block;}*/
+#webname .ontudot{display:block;}
+
+
+.ocudheadh::after{
+  content:'Updated on 15th October 2024';
+}
+.ocudpp::after{
+  content:'Some software updates has been done';
+}
+#ocupd{background:#c11;}
+
+#webname .ocudot{display:block;}
+
+
+.ascudheadh::after{
+  content:'Updated on 15th October 2024';
+}
+.ascudpp::after{
+  content:'New version has been launched.';
+}
+#ascupd{background:#c11;}
+
+#webname .ascudot{display:block;}
 
 /*wl*/
 .wlrate::after{
