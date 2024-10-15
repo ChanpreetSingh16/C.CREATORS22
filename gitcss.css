@@ -169,7 +169,7 @@ content:'No Updates';
 	font-size:18px;
 }
 .ontsize::after{
-	content:' 31.7';
+	content:' 31.7 MB';
 	float:left;
 	font-size:18px;
 }
