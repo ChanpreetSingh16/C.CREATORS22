@@ -21,7 +21,7 @@ content:'No Updates';
 
 /*#v2u1-16824{background:#f33; color:#fff;}*/
 
-.ontudheadh::after{
+/*.ontudheadh::after{
   content:'Updated on 15th October 2024';
 }
 .ontudpp::after{
@@ -49,7 +49,7 @@ content:'No Updates';
 .ascudpp::after{
   content:'New version has been launched.';
 }
-#ascupd{background:#c11;}
+#ascupd{background:#c11;}*/
 
 #webname .ascudot{display:block;}
 
