@@ -14,7 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 </head>
-<body link="#09f" alink="#fff" vlink="#fff">
+<body link="#09f" alink="#fff" vlink="#fff" onload="theme()">
 <script>
 var elem = document.documentElement;
 function fullscreen() {
@@ -83,6 +83,7 @@ let themebt = document.getElementById("themebt");
 
 themebt.onclick = function(){
 document.body.classList.toggle("theme");
+if(document.body.classList.contains("theme"){localStorage
 }
 
 let gidbt = document.getElementById("gidbt");
