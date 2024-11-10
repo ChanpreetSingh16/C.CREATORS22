@@ -16,6 +16,11 @@
 </head>
 <body link="#09f" alink="#fff" vlink="#fff" onload="theme()">
 <script>
+const = localStorage.getItem("theme");
+function theme() {
+ document.body.classList.toggle(color);
+}
+
 var elem = document.documentElement;
 function fullscreen() {
   if (elem.requestFullscreen) {
