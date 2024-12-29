@@ -173,3 +173,16 @@ content:'No Updates';
 	float:left;
 	font-size:18px;
 }
+
+
+/*onno*/
+.onnorate::after{
+	content:' 5 ';
+	float:left;
+	font-size:18px;
+}
+.onnoversion::after{
+	content:' V1 20.11.2024';
+	float:left;
+	font-size:18px;
+}
