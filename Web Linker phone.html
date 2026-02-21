@@ -3,6 +3,7 @@
 <head>
 <title>Web Linker</title>
 <meta name="google-site-verification" content="UHiCCghKDeGSrEow4CjlaoKVmW55F19KmICGRNuWVPk" />
+<link rel="manifest" href="manifest.json">
 <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkXydFoPeJ1El3NG8uqZUk35PcSoKkbg8QZhAwVmZMDYnw1TYhcyjZrxLJnuooShVLkCfjfrI-DcuhXLqkzXJcbGhgZTCTEhPv6AzkTxBLpTdi3c7ocubb-FTjM2_NJhkmsJHbC-TrrGE_SwaXh7H-wYGPQO2VsZ1vG1Ub0Xo65M9Tr_JR63gKgl4S09Y/s1600/16.png">
 <link rel="stylesheet" href="https://chanpreetsingh16.github.io/C.CREATORS22/gitcss.css">
 <link href='https://fonts.googleapis.com/css?family=Afacad' rel='stylesheet'>
@@ -16,6 +17,11 @@
 <meta name="theme-color" content="#014169">
 <meta name="color-scheme" content="dark" />
 </head>
+<script>
+if("serviceWorker" in navigator){
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
 <body link="#09f" alink="#fff" vlink="#fff" onload="theme()">
 <script>
 const color = localStorage.getItem("theme");
